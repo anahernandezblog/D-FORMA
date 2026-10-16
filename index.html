@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="D-Forma: estudio de diseño 3D de objetos decorativos personalizados, hechos en Colombia.">
+    <link rel="icon" type="image/png" href="imagotipo-d-forma.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="encabezado">
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#inicio">
+                <img src="./img/Logo-sin-fondo.png" alt="D-Forma, ir al inicio">
+            </a>
+        </div>
+
+        <!-- Menú -->
+        <nav class="menu" aria-label="Menú principal">
+            <a href="#quienes-somos">Quiénes somos</a>
+            <a href="#productos">Productos</a>
+            <a href="#por-que-elegirnos">Por qué elegirnos</a>
+            <a href="#como-trabajamos">Cómo trabajamos</a>
+        </nav>
+
+    </header>
+
+    <main id="inicio">
+
+        <!-- SLIDER DE D-FORMA -->
+        <div class="fondo">
+            <section class="slider" aria-label="Galería de diseños D-Forma">
+                <!-- Controles del slider -->
+                <input type="radio" name="slider" id="imagen1" aria-label="Ver diseño 1" checked>
+                <input type="radio" name="slider" id="imagen2" aria-label="Ver diseño 2">
+                <input type="radio" name="slider" id="imagen3" aria-label="Ver diseño 3">
+                <input type="radio" name="slider" id="imagen4" aria-label="Ver diseño 4">
+
+                <!-- Imágenes -->
+                <div class="imagenes">
+                    <div class="imagen">
+                        <img src="./img/Presentacion 1.png" alt="Diseño D-Forma 1">
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/Presentacion 2.png" alt="Diseño D-Forma 2" loading="lazy">
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/Presentacion 3.png" alt="Diseño D-Forma 3" loading="lazy">
+                    </div>
+                    <div class="imagen">
+                        <img src="./img/Presentacion 4.png" alt="Diseño D-Forma 4" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Flechas -->
+                <div class="flechas">
+                    <div class="flecha flecha1">
+                        <label for="imagen4" class="anterior" aria-label="Diseño anterior">‹</label>
+                        <label for="imagen2" class="siguiente" aria-label="Diseño siguiente">›</label>
+                    </div>
+                    <div class="flecha flecha2">
+                        <label for="imagen1" class="anterior" aria-label="Diseño anterior">‹</label>
+                        <label for="imagen3" class="siguiente" aria-label="Diseño siguiente">›</label>
+                    </div>
+                    <div class="flecha flecha3">
+                        <label for="imagen2" class="anterior" aria-label="Diseño anterior">‹</label>
+                        <label for="imagen4" class="siguiente" aria-label="Diseño siguiente">›</label>
+                    </div>
+                    <div class="flecha flecha4">
+                        <label for="imagen3" class="anterior" aria-label="Diseño anterior">‹</label>
+                        <label for="imagen1" class="siguiente" aria-label="Diseño siguiente">›</label>
+                    </div>
+                </div>
+
+                <!-- Puntos de navegación -->
+                <div class="puntos">
+                    <label for="imagen1" aria-label="Ir al diseño 1"></label>
+                    <label for="imagen2" aria-label="Ir al diseño 2"></label>
+                    <label for="imagen3" aria-label="Ir al diseño 3"></label>
+                    <label for="imagen4" aria-label="Ir al diseño 4"></label>
+                </div>
+            </section>
+        </div>
+
+        <!-- QUIÉNES SOMOS -->
+        <section id="quienes-somos" class="quienes-somos">
+
+            <h2 class="titulo-seccion">QUIÉNES SOMOS</h2>
+
+            <div class="contenido-quienes">
+
+                <div class="imagen-quienes">
+                    <img src="img/diseño-d-forma.png" alt="Objetos decorativos diseñados en 3D por D-Forma" loading="lazy">
+                </div>
+
+                <div class="informacion-quienes">
+
+                    <p>
+                        Somos un estudio de diseño 3D que da vida a ideas únicas,
+                        creando objetos decorativos que transforman espacios
+                        cotidianos.
+                    </p>
+
+                    <!-- Misión y visión -->
+                    <div class="mision-vision">
+
+                        <div class="tarjeta">
+                            <h3>MISIÓN</h3>
+                            <p>
+                                Lograr que el diseño y la tecnología se unan para crear
+                                experiencias únicas y personalizadas.
+                            </p>
+                        </div>
+
+                        <div class="tarjeta">
+                            <h3>VISIÓN</h3>
+                            <p>
+                                Ser una marca reconocida por crear objetos
+                                innovadores y funcionales.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <section id="productos" class="productos">
+
+            <h2 class="titulo-seccion">PRODUCTOS</h2>
+
+            <div class="lista-productos">
+
+                <article class="tarjeta-producto">
+                    <img src="./img/Producto 1.png" alt="Panel de luz D-Forma" loading="lazy">
+                    <div class="informacion-producto">
+                        <h3>PANEL DE LUZ<br>D-FORMA</h3>
+                        <p>
+                            Paneles geométricos diseñados para crear
+                            composiciones personalizadas en la pared.
+                            Su iluminación LED indirecta genera
+                            un halo de luz.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="./img/Producto 2.png" alt="Soporte para audífonos D-Forma" loading="lazy">
+                    <div class="informacion-producto">
+                        <h3>SOPORTE D-FORMA</h3>
+                        <p>
+                            Soporte funcional con una silueta limpia
+                            y moderna que mantiene los audífonos
+                            organizados y accesibles.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="./img/Producto 3.png" alt="Organizadores modulares D-Forma" loading="lazy">
+                    <div class="informacion-producto">
+                        <h3>ORGANIZADORES<br>D-FORMA</h3>
+                        <p>
+                            Accesorios modulares para mantener
+                            objetos pequeños organizados sin
+                            sacrificar el diseño.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="tarjeta-producto">
+                    <img src="./img/Producto 4.png" alt="Lámpara de mesa D-Forma" loading="lazy">
+                    <div class="informacion-producto">
+                        <h3>LÁMPARA DE MESA<br>D-FORMA</h3>
+                        <p>
+                            Lámpara decorativa con estructura
+                            geométrica que proyecta sombras y
+                            crea una iluminación cálida.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- SECCIÓN POR QUÉ ELEGIRNOS -->
+        <section id="por-que-elegirnos" class="por-que-elegirnos">
+
+            <h2 class="titulo-seccion">POR QUÉ ELEGIRNOS</h2>
+
+            <div class="lista-valores">
+
+                <div class="valor">
+                    <img src="./img/personalizacion-producto.png" alt="" loading="lazy">
+                    <p>PERSONALIZACIÓN</p>
+                </div>
+
+                <div class="valor">
+                    <img src="./img/dieño.png" alt="" loading="lazy">
+                    <p>DISEÑO</p>
+                </div>
+
+                <div class="valor">
+                    <img src="./img/confianza.png" alt="" loading="lazy">
+                    <p>CONFIANZA</p>
+                </div>
+
+                <div class="valor">
+                    <img src="./img/marca-local.png" alt="" loading="lazy">
+                    <p>MARCA LOCAL</p>
+                </div>
+
+                <div class="valor">
+                    <img src="./img/atencion-cliente.png" alt="" loading="lazy">
+                    <p>ATENCIÓN AL CLIENTE</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SECCIÓN CÓMO TRABAJAMOS -->
+        <section id="como-trabajamos" class="como-trabajamos">
+
+            <h2 class="titulo">
+                <span aria-hidden="true">✦</span>
+                CÓMO TRABAJAMOS
+                <span aria-hidden="true">✦</span>
+            </h2>
+
+            <div class="contenedor-pasos">
+
+                <article class="paso">
+                    <div class="imagen-paso">
+                        <span class="numero">1</span>
+                        <img src="./img/eliges.png" alt="Elegir diseño" loading="lazy">
+                    </div>
+                    <h3>ELIGES</h3>
+                </article>
+
+                <article class="paso">
+                    <div class="imagen-paso">
+                        <span class="numero">2</span>
+                        <img src="./img/personalizas.png" alt="Personalizar diseño" loading="lazy">
+                    </div>
+                    <h3>PERSONALIZAS</h3>
+                </article>
+
+                <article class="paso">
+                    <div class="imagen-paso">
+                        <span class="numero">3</span>
+                        <img src="./img/imprimimos.png" alt="Proceso de impresión 3D" loading="lazy">
+                    </div>
+                    <h3>IMPRIMIMOS</h3>
+                </article>
+
+                <article class="paso">
+                    <div class="imagen-paso">
+                        <span class="numero">4</span>
+                        <img src="./img/enviamos.png" alt="Envío del producto" loading="lazy">
+                    </div>
+                    <h3>ENVIAMOS</h3>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie-pagina">
+
+        <div class="logo">
+            <img src="./img/Logo-sin-fondo.png" alt="Logo D-Forma" loading="lazy">
+        </div>
+
+        <div class="contacto">
+            <h2>
+                ¿LISTO PARA DARLE FORMA A<br>
+                TU ESPACIO?
+            </h2>
+
+            <a href="https://wa.me/573001234567?text=Hola%20D-Forma%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n"
+               class="boton-contacto"
+               target="_blank"
+               rel="noopener noreferrer">
+                Contáctanos
+            </a>
+        </div>
+
+        <div class="redes-sociales">
+            <a href="https://wa.me/573001234567" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+
+            <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+
+            <a href="mailto:contacto@dforma.com" aria-label="Correo electrónico">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+
+            <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
